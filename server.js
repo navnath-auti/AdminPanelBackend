@@ -17,7 +17,7 @@ const DB = process.env.DATABASE.replace(
   process.env.DATABASE_PASSWORD
 );
 
-console.log("Inside Server.js file");
+// console.log("Inside Server.js file");
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
