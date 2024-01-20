@@ -7,6 +7,8 @@ const productSchema = new mongoose.Schema({
   images: [String],
 });
 
+console.log("Inside Product.js models file");
+
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;
